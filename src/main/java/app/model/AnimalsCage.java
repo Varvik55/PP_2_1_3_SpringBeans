@@ -11,7 +11,7 @@ public class AnimalsCage {
     private Animal animal;
 
     @Autowired
-    Timer timer;
+    private Timer timer;
 
 
 

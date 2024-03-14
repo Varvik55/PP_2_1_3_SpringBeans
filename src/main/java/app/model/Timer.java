@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Timer {
-    @Qualifier("timer")
+
     private Long nanoTime = System.nanoTime();
 
     public Long getTime() {
